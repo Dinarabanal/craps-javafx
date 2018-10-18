@@ -21,6 +21,12 @@ public class RollCell extends ListCell<Roll> {
     this.bundle = bundle;
   }
 
+  /**
+   * 
+   * @param item
+   * @param empty
+   */
+
   @Override
   protected void updateItem(Roll item, boolean empty) {
     super.updateItem(item, empty);
